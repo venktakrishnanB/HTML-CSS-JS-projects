@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <button onclick="console.log(cartQuantity);">Show Quantity</button>
+
+        <button onclick="cartQuantity += 1; console.log(cartQuantity)">Add to Cart</button>
+
+        <button onclick="cartQuantity += 2; console.log(cartQuantity);">+2</button>
+
+        <button onclick="cartQuantity += 3; console.log(cartQuantity);">+3</button>
+
+        <button onclick="cartQuantity += 4; console.log(cartQuantity);">+4</button>
+
+        <button onclick="cartQuantity += 5; console.log(cartQuantity)">+5</button>
+
+        <button onclick="cartQuantity -= 1; console.log(cartQuantity);">Remove from the cart</button>
+
+        <button onclick="cartQuantity -= 2; console.log(cartQuantity)">-2</button>
+
+        <button onclick="cartQuantity -= 3; console.log(cartQuantity)">-3</button>
+
+        <button onclick="console.log('cart quantity was reset'); cartQuantity = 0; console.log(cartQuantity);">Reset Cart</button>
+
+        <script>
+            let cartQuantity = 0;
+        </script>
+    </body>
+</html>
